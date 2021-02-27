@@ -25,12 +25,13 @@
     </header>
 
     <!-- video --> 
-    <section class="video">
+    <section class="player">
         <video controls autoplay src="https://player.vimeo.com/external/189545487.sd.mp4?s=8cd2af1ec08f7ce121a5a6a09c78c05237943524&profile_id=164&oauth2_token_id=57447761">
         </video>
     </section>
 
     <!-- info -->
+    <div class="infoAndNext">
     <section class="info">
         <div class="data">
             <ul class="hashtags">
@@ -40,38 +41,36 @@
             <li>#Irene Awesome</li>
             </ul>
         </div>
-
         <div class="titleAndBtn">
-            <span class="title">AMAZING Beautiful Nature FEEL relax and Kick your stress out!!!</span>
-            <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
-            <div class="views">
+            <span class="title">AMAZING Beautiful Nature FEEL relax and Kick your stress out!!! Beautiful color of Nature
+            <button class="moreBtn">
+                <i class="fas fa-caret-down"></i>
+            </button></span>
                 <span class="views">1M views 1 month ago</span>
         </div>
         <ul class="actions">
                 <li>
-                    <button class="far fa-thumbs-up"><span>1M</span></button>
-                    
+                    <button><i class="active far fa-thumbs-up"></i>1M</button>    
                 </li>
                 <li>
-                    <button class="far fa-thumbs-down"><span>0</span></button>
-                    
+                    <button><i class="far fa-thumbs-down"></i>0</button>    
                 </li>
                 <li>
-                    <button class="fas fa-share"><span>Share</span></button>
-                    
+                    <button><i class="fas fa-share"></i>Share</button>     
                 </li>
                 <li>
-                    <button class="fas fa-plus"><span>Save</span></button>
-                    
+                    <button><i class="fas fa-plus"></i>Save</button> 
                 </li>
                 <li>
-                    <button class="fas fa-flag"><span>Report</span></button>
+                    <button><i class="fas fa-flag"></i>Report</button>
                 </li>
         </ul>
+
+        <!-- channel info-->
         <div class="channel">
             <div class="metadata">
             <img src="/image/irene.jpg"/>
-            <div class="channer-info">
+            <div class="channel-info">
             <span class="channel-title">AWESOME IRENE</span>
             <span class="channel-subscriber">1M Subscriber</span>
             </div> 
@@ -83,8 +82,10 @@
         <section class="next">
                 <span class="title">Up Next</span>
                 <ul>
-                    <li class="item">
-                    <video controls autoplay src="https://player.vimeo.com/external/289258217.sd.mp4?s=50b11b521df767740fa56e4743159474f540afa2&profile_id=164&oauth2_token_id=57447761"></video>
+                    <li class="items">
+                        <div class="video">
+                            <video controls autoplay src="https://player.vimeo.com/external/289258217.sd.mp4?s=50b11b521df767740fa56e4743159474f540afa2&profile_id=164&oauth2_token_id=57447761"></video>
+                        </div>
                     <div class="info">
                         <span class="title">Check out this Beautibul Nature</span>
                         <span class="name">AWESOME IRENE</span>
@@ -92,8 +93,10 @@
                     </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
                 </li>
-                    <li class="item">
-                        <video controls autoplay src="https://player.vimeo.com/external/188557098.sd.mp4?s=d66005678b7aca2dc9c0e7d7033f6c0deb6410a9&profile_id=164&oauth2_token_id=57447761"></video>
+                    <li class="items">
+                        <div class="video">
+                            <video controls autoplay src="https://player.vimeo.com/external/188557098.sd.mp4?s=d66005678b7aca2dc9c0e7d7033f6c0deb6410a9&profile_id=164&oauth2_token_id=57447761"></video>
+                        </div>
                         <div class="info">
                             <span class="title">Check out this Beautibul Nature</span>
                             <span class="name">AWESOME IRENE</span>
@@ -101,9 +104,10 @@
                         </div>
                             <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
                         </li>
-                    <li class="item">
-                        <video controls autoplay
-                            src="https://player.vimeo.com/external/392328703.sd.mp4?s=98d5a5b0556eb22e7ea4d7d0d03482954bcf9fee&profile_id=139&oauth2_token_id=57447761"></video>
+                    <li class="items">
+                        <div class="video">
+                            <video controls autoplay src="https://player.vimeo.com/external/392328703.sd.mp4?s=98d5a5b0556eb22e7ea4d7d0d03482954bcf9fee&profile_id=139&oauth2_token_id=57447761"></video>
+                            </div>
                         <div class="info">
                                 <span class="title">Check out this Beautibul Nature</span>
                                 <span class="name">AWESOME IRENE</span>
@@ -113,5 +117,6 @@
                     </li>
                 </ul>
         </section>
+        </div>
 </body>
 </html>
